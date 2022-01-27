@@ -22,3 +22,21 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* ------ task-03 ------ */
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gallery-item {
+  list-style-type: none;
+}
+
+.gallery-image {
+  display: block;
+  width: 250px;
+  max-height: 140px;
+}
