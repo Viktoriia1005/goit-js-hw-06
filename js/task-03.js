@@ -23,3 +23,9 @@ images.forEach(({url, alt}) => {
 </li>`
   )
 })
+
+// const makeGalleryMarkup = images => images.reduce((acc, {url, alt}) => {
+//   return (acc += `<li class='gallery-item'><img class='gallery-image' src='${url}' alt='${alt}'></li>`)
+// }, '');
+
+// galleryList.insertAdjacentHTML('beforeend', makeGalleryMarkup(images));
