@@ -1,9 +1,11 @@
-const input = document.createElement('input#validation-input');
+const input = document.querySelector('input#validation-input');
 
 input.addEventListener('blur', onInputBlur);
 
 function onInputBlur() {
-    if (+input.data-length === input.value.trim().length) {
-
+    if (+input.dataset.length === input.value.trim().length) {
+        input.setAttribute('class', 'valid');
+    } else {
+        input.setAttribute('class', 'invalid');
     }
 }
