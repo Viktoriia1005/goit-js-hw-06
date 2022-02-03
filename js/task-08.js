@@ -14,9 +14,8 @@ event.preventDefault();
 
 // проверка на заполнение полей
 
-if(mail === '' || password === '') {
+if(!mail || !password) {
     alert ('Убедитесь, что все поля формы заполнены');
-    form.reset();
     return;
 }
 
