@@ -11,6 +11,6 @@ function getRandomHexColor() {
 function onchangeColorBtn () {
   
   bodyEl.style.backgroundColor = getRandomHexColor();
-  document.querySelector('.color').textContent = bodyEl.style.backgroundColor;
+  document.querySelector('.color').innerHTML = bodyEl.style.backgroundColor;
   
 }
