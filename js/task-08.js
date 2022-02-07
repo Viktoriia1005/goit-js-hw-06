@@ -21,12 +21,11 @@ if(!mail || !password) {
 
 // собрать данные с формы 
 
-const formData = new FormData(event.currentTarget);
-
-formData.forEach((value, name) => {
-    
-});
-console.log(formData);
+const formData = {
+    mail,
+    password,
+    };
+    console.log(formData);
 
 form.reset();
 }
