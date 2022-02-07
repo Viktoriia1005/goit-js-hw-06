@@ -1,8 +1,5 @@
 const form = document.querySelector('.login-form');
 
-
-form.addEventListener('submit', onButtonSubmit);
-
 function onButtonSubmit(event) {
     // отключить перезагрузку страницы
 
@@ -29,3 +26,5 @@ const formData = {
 
 form.reset();
 }
+
+form.addEventListener('submit', onButtonSubmit);
